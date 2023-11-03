@@ -1,0 +1,55 @@
+.meme{
+    background: #FAFF00;
+    padding: 80px 48px;
+}
+
+.meme__img{
+    width: 100%;
+}
+
+.meme__descr{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.meme__title{
+    font-family: "Press Start 2P";
+    font-size: 40px;
+}
+
+.meme__founder{
+    font-size: 32px;
+    color: #121723;
+    font-weight: 100;
+}
+
+.meme__info{
+    display: flex;
+    gap: 32px;
+    font-family: "Inter";
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.meme__facts{
+    width: 45%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fact__value{
+    text-align: right;
+}
+
+.meme__about{
+    width: 55%;
+}
